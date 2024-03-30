@@ -10,7 +10,7 @@ How to start the node server.
   - The most common use of package.json files is to save a record of all of the packages we download and save into our project.
 - Install express by running ```npm i -s express``` inside the same directory
 - Create index.html file
-- Create <u>index.js</u> file and write the following:
+- Create <ins>index.js</ins> file and write the following:
   - Import the express dependency
   - Mention the port where the server listens to (We will use this port number in web browser)
   - Instantiate the express app ```const app = express()```
