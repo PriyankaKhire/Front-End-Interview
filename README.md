@@ -15,6 +15,9 @@ Package Managers
 - [NPM](#npm)
 - [Yarn](#yarn)
 
+Other Concepts
+- [MVC: Model View Controller](#model-view-controller-mvc-framework)
+
 ---
 
 ## NPM
@@ -63,5 +66,25 @@ Right before showing the page, the browser must build up the structure of the pa
 
 After having prepared this model in the memory, rendering engines utilize it to display the page according to the HTML standard.
 
+## Model View Controller (MVC Framework)
+Model-View-Controller (MVC) is a software architectural pattern commonly used for designing user interfaces and organizing code in applications. It divides an application into three interconnected components:
 
+<img src="img/MVC.jpg">
 
+1. **Model:**   This is like the brain of the application. It holds all the data and rules about how that data can be used or changed. It's like a container for all the important information.  In an MVC architecture, the model notifies the view of any changes to the data, ensuring that the view always reflects the current state of the model. 
+2. **View:** Think of this as the face of the application. It's what the user sees and interacts with. The view displays the data from the model in a way that's easy for the user to understand. It also lets the user input new data or make changes.
+3. **Controller:** This is like the middleman between the model and the view. It handles user input and decides what to do with it. It talks to the model to get or change data, and it updates the view to show any new information.
+
+### Popular MVC Frameworks:
+Some of the most popular and extensively used MVC frameworks are listed below.
+
+- Ruby on Rails
+- Django 
+- CherryPy 
+- Spring MVC 
+- Catalyst 
+- Rails 
+- Zend Framework 
+- Fuel PHP 
+- Laravel 
+- Symphony
