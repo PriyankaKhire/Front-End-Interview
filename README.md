@@ -8,6 +8,7 @@ Languages
 
 Projects
 - [Node.js Project](Node%20Project/README.md)
+- [React Project](React%20Project/README.md)
 
 Package Managers
 - [NPM](#npm)
