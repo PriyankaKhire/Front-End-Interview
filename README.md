@@ -9,6 +9,7 @@ Languages
 Projects
 - [Node.js Project](Node%20Project/README.md)
 - [React Project](React%20Project/README.md)
+- [Create React APP](CreateReactApp-CRA/chapter1/README.md)
 
 Package Managers
 - [NPM](#npm)
@@ -45,7 +46,7 @@ This is a metadata file for your project which lists the dependencies of your pr
 Once you have a package.json file set up for your project, it becomes easy to manage dependencies. You can share your project with other developers, and they can simply run ```npm install``` to install all the dependencies listed in the package.json file. Additionally, npm can use this file to update dependencies to their latest versions or install any missing dependencies when needed.
 
 ## Yarn
-Yarn is a package manager for JavaScript. Yarn was created to address some shortcomings of npm (Node Package Manager), the default package manager for Node.js, by improving performance, reliability, and security. Yarn offers simpler commands and <ins>better caching</ins> — and thus better performance.
+Yarn is a package manager for JavaScript. Yarn was created to address some shortcomings of npm (Node Package Manager), the default package manager for Node.js, by improving performance, reliability, and security. Yarn offers simpler commands and <u>better caching</u> — and thus better performance.
 
 We will use Yarn with React.
 
