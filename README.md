@@ -3,6 +3,7 @@ Languages
 - [HTML](HTML/README.md)
 - [CSS](CSS/README.md)
 - [JavaScript](JavaScript/README.md)
+  - [DOM: Document Object Model](#dom-document-object-model)
 - [React](React/README.md)
 
 Projects
@@ -10,6 +11,8 @@ Projects
 
 Package Managers
 - [NPM](#npm)
+
+---
 
 ## NPM
 ### Key software components for web development
