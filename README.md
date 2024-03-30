@@ -11,6 +11,7 @@ Projects
 
 Package Managers
 - [NPM](#npm)
+- [Yarn](#yarn)
 
 ---
 
@@ -41,6 +42,14 @@ The package.json defines the start command that, as its name suggests, launches 
 This is a metadata file for your project which lists the dependencies of your project along with other information such as the project's name, version, author, etc. When you install packages using npm, you can choose to save these dependencies into your project's package.json file. This file serves as a record of the dependencies required by your project.
 
 Once you have a package.json file set up for your project, it becomes easy to manage dependencies. You can share your project with other developers, and they can simply run ```npm install``` to install all the dependencies listed in the package.json file. Additionally, npm can use this file to update dependencies to their latest versions or install any missing dependencies when needed.
+
+## Yarn
+Yarn is a package manager for JavaScript. Yarn was created to address some shortcomings of npm (Node Package Manager), the default package manager for Node.js, by improving performance, reliability, and security. Yarn offers simpler commands and <u>better caching</u> — and thus better performance.
+
+We will use Yarn with React.
+
+- **Dependency Management:** Similar to npm, Yarn helps manage dependencies for JavaScript projects. It allows developers to specify project dependencies in a ```package.json``` file and automatically installs the required packages along with their dependencies.
+- **Reliability:** Yarn ensures consistent and reliable installations by using a lockfile (yarn.lock) to lock down the versions of dependencies. This helps prevent issues such as installing different versions of dependencies on different machines or in different environments.
 
 ## DOM: Document Object Model
 
